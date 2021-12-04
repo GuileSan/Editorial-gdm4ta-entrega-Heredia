@@ -1,0 +1,33 @@
+@import "colors";
+@import "sizes";
+
+.sec-header {
+    background-color: $header-bg;
+    h1 {
+        color: $txt-color-btn;
+        font-size: $h1-font-size;
+    }
+    p {
+        color: $txt-color-btn;
+        font-size: $p-font-sizes;
+    }
+}
+#btn-lanza {
+    width: $width-btn;
+}
+.btn {
+    background-color: $btn-color;
+    color: $txt-color-btn;
+}
+h1 {
+    font-size: $h1-font-size;
+}
+h2 {
+    font-size: $h2-font-size;
+}
+h3 {
+    font-size: $h3-font-size
+}
+li:hover {
+    transform: scale(1.2);
+}
